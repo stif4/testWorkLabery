@@ -1,0 +1,21 @@
+.theBestBook{
+    background-color: rgba(0, 22, 39, 0.758);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 12px 11px -9px rgba(0, 0, 0, 0.639);
+    max-width: 600px;
+}
+.theBestBook>div:first-child{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.theBestBook>div:not(:first-child){
+    margin-bottom: 8px;
+    font-size: 18px;
+    margin-left: 10px;
+}
